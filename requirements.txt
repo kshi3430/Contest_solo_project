@@ -1,21 +1,20 @@
 # requirements.txt
 
-# Streamlit
 streamlit
 
-# LangChain 최신으로 통일
+# LangChain
 langchain>=0.3.0
 langchain-core>=0.3.0
 langchain-community>=0.3.0
 langchain-text-splitters>=0.3.0
 
-# Upstage 최신 (최신 langchain과 호환)
+# Upstage
 langchain-upstage>=0.3.0
 langchain-openai>=0.3.0
 
-# Pinecone 최신
+# Pinecone - 버전 고정이 핵심!
 langchain-pinecone>=0.2.0
-pinecone>=5.0.0
+pinecone==3.2.2
 
 # 기타
 python-dotenv
