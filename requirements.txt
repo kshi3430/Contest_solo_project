@@ -12,7 +12,8 @@ langchain-text-splitters>=0.3.0
 langchain-upstage>=0.3.0
 langchain-openai>=0.3.0
 
-# Pinecone - 버전 고정이 핵심!
+# Pinecone - 플러그인 충돌 방지
+pinecone-plugin-inference==2.0.0  # ← 이 줄 추가! (빈 stub 버전)
 langchain-pinecone>=0.2.0
 pinecone==3.2.2
 
