@@ -1,13 +1,11 @@
-streamlit
-langchain>=0.3.0
-langchain-core>=0.3.0
-langchain-community>=0.3.0
-langchain-text-splitters>=0.3.0
-langchain-upstage>=0.3.0
-langchain-openai>=0.3.0
-python-dotenv
-tiktoken
-
-# pinecone 관련은 이것만!
-pinecone-client==2.2.4
+streamlit==1.53.1
+python-dotenv==1.2.1
+langchain==0.1.20
+langchain-core==0.1.52
+langchain-openai==0.1.7
+langchain-community==0.0.38
+langchain-text-splitters==0.0.2
+langchain-upstage==0.1.5
 langchain-pinecone==0.1.0
+pinecone-client==3.2.2
+openai==1.109.1
