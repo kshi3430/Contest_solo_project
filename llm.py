@@ -90,4 +90,3 @@ def get_ai_response(user_message, session_id):
     for chunk in ai_response:
         if "answer" in chunk:
             yield chunk["answer"]
-            #깃허브 코드수정
