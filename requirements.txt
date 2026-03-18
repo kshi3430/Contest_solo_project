@@ -1,22 +1,13 @@
-# requirements.txt
-
 streamlit
-
-# LangChain
 langchain>=0.3.0
 langchain-core>=0.3.0
 langchain-community>=0.3.0
 langchain-text-splitters>=0.3.0
-
-# Upstage
 langchain-upstage>=0.3.0
 langchain-openai>=0.3.0
-
-# Pinecone - 플러그인 충돌 방지
-pinecone-plugin-inference==2.0.0  # ← 이 줄 추가! (빈 stub 버전)
-langchain-pinecone>=0.2.0
-pinecone==3.2.2
-
-# 기타
 python-dotenv
 tiktoken
+
+# pinecone 관련은 이것만!
+pinecone-client==2.2.4
+langchain-pinecone==0.1.0
